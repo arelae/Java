@@ -1,5 +1,19 @@
 package DataStructures.HashMap.Hashing;
 
+/**
+ * This entire class is used to build a HashMap data structure.
+ * There is the LinkedList and the Node Class, both explained below.
+ */
+
+
+/**
+ * A hash map is a data structure that uses a Key and Value. Null 
+ * keys and null values are valid.
+ *
+ * @author Unknown
+ *
+ */
+
 public class HashMap {
     private int hsize;
     private LinkedList[] buckets;
